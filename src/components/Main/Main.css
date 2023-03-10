@@ -1,0 +1,113 @@
+.page {
+    flex: 1 1 auto;
+}
+
+.page__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-block__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    max-width: 362px;
+}
+
+.info__highlight {
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.body__text-block {
+    max-width: 165px;
+    max-height: 68px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.main-block__subtitle {
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+
+}
+
+.main-block__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 30px;
+    max-width: 275px;
+}
+
+.page__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    max-width: 330px;
+    max-height: 372px;
+}
+
+.info__header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: right;
+}
+
+.info__body {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.body__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.body__subtitile {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.info__btn {
+    margin-top: 31px;
+}
+
+
+.btn__get-consultation {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    background: #4077F3;
+    max-height: 61px;
+    max-width: 262px;
+    width: 100%;
+    padding: 21px 34px;
+
+}

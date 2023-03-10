@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.wrapper {
   min-height: 100vh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url(../public/images/background.png);
 }
 
-.App-link {
-  color: #61dafb;
+._container {
+  max-width: 1140px;
+  box-sizing: content-box;
+  margin: 0px auto;
+  padding: 0 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 873px) {
+  .header__contact {
+    display: none;
   }
 }
+
+@media (max-width:841px) {
+  .footer__menu {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:871px) {
+  .header__logo {
+    display: none;
+  }
+  .menu__list {
+    flex-wrap: nowrap;
+  }
+
+  .contact__icon {
+    display: none;
+  }
+
+  .menu__item {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 15px;
+  }
+
+  .contact__phone-number {
+    display: none;
+  }
+  .page__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .page__information {
+    margin-top: 45px;
+  }
+  
+}
+
+@media (max-width: 582px) {
+  
+  .info__btn {
+    display: none;
+  }
+  
+}
+

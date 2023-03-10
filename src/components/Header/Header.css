@@ -1,0 +1,59 @@
+.header {
+    padding-top: 46px;
+} 
+.header__container {
+    display: flex;
+    min-height: 73px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fixed-header__menu {
+    display: none;
+    width: 320px;
+    height: 55px;
+}
+
+.logo__signature {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #E4E5EA;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    margin-right: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header__contact {
+    display: flex;
+}
+
+.contact__icon {
+    margin-left: 30px;
+}
+
+.contact__phone-number {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+}
+
+.phone-number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    }
