@@ -16,11 +16,18 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="menu-block__container">
             <div className="menu-block__title">МЕНЮ</div>
             <ul className="menu-block__list _displacement">
-              <li className="menu-block__item">
+              <li className="menu-block__item _none">
                 <a href="">Расчёт стоимости</a>
+              </li>
+              <li className="menu-block__item-mobile">
+                <a href="">
+                  Расчёт
+                  <br />
+                  стоимости
+                </a>
               </li>
               <li className="menu-block__item _displacement">
                 <a href="">Услуги</a>
@@ -35,11 +42,21 @@ export const Footer = () => {
                 <a href="">Наши клиенты</a>
               </li>
 
-              <li className="menu-block__item">
+              <li className="menu-block__item _none">
                 <a href="">Кейсы</a>
               </li>
-              <li className="menu-block__item">
+              <li className="menu-block__item _none">
                 <a href="">Благодарственные письма</a>
+              </li>
+              <li className="menu-block__item-mobile">
+                <a href="">
+                  Благодарность
+                  <br />
+                  клиентов
+                </a>
+              </li>
+              <li className="menu-block__item-mobile">
+                <a href="">Кейсы</a>
               </li>
               <li className="menu-block__item">
                 <a href="">Сертификаты</a>
@@ -52,11 +69,13 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="contact-information">
             <div className="menu-block__title _right">КОНТАКТЫ</div>
             <ul>
               <li className="_information">
-                <a href="" className="phone-number">+7 555 555-55-55</a>
+                <a href="" className="phone-number">
+                  +7 555 555-55-55
+                </a>
               </li>
               <li className="_information">
                 <a href="" className="footer__icon">
@@ -69,15 +88,17 @@ export const Footer = () => {
                   <img src="icons/whatsapp.svg" alt="logo" />
                 </a>
               </li>
-              <li className="menu-block__item">
-                    Москва, Путевой проезд 3с1, к 902
+              <li className="menu-block__item _information">
+                Москва, Путевой проезд 3с1, к 902
               </li>
             </ul>
           </div>
         </div>
-        <div className="_right">
-          <div>©WELBEX 2022. Все права защищены.</div>
-          <a href="" className="confidencial">Политика конфиденциальности</a>
+        <div className="law-information _right">
+          <div className="copyright">©WELBEX 2022. Все права защищены.</div>
+          <a href="" className="confidencial">
+            Политика конфиденциальности
+          </a>
         </div>
       </div>
     </footer>

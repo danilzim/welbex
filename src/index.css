@@ -4,20 +4,17 @@
   border: 0;
   box-sizing: border-box;
   color:#E4E5EA
-  
 }
 
 html,
 body {
   height: 100%;
-  
 }
 
 ul,
 ol,
 li {
     list-style: none;
-
 }
 
 a {

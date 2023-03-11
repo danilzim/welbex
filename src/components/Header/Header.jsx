@@ -37,17 +37,15 @@ export const Header = () => {
                 Кейсы
               </a>
             </li>
-            <li className="menu__item">
+            <li className="menu__item _none">
               <a href="" className="menu__link">
                 Сертификаты
               </a>
             </li>
           </ul>
         </nav>
-        
-             
         <div className="header__contact contact">
-          <a href="" className="contact__phone-number">+7 555 555-55-55</a>
+          <a href="" className="phone-number">+7 555 555-55-55</a>
           <a href="" className="contact__icon">
             <img src="icons/telegram.svg" alt="logo" />
           </a>

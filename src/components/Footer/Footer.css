@@ -1,10 +1,10 @@
 .footer {
     padding: 55px 0px 20px 0px;
 }
+
 .footer__container {
     display: flex;
     flex-direction: column;
-
 }
 
 .footer__menu {
@@ -17,16 +17,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     max-height: 150px;
-
 }
 
 .menu-block__title {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-color: #656566;
-margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #656566;
+    margin-bottom: 20px;
 }
 
 .menu-block__item {
@@ -36,6 +35,24 @@ margin-bottom: 20px;
     font-size: 16px;
     color: #E4E5EA;
     margin-bottom: 10px;
+}
+
+.menu-block__item-mobile {
+    display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #E4E5EA;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
 }
 
 .footer__icon {
@@ -56,5 +73,75 @@ margin-bottom: 20px;
 }
 
 .confidencial {
-    text-decoration:underline;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+._none {
+    display: block;
+}
+
+@media (max-width: 950px) {
+    .footer__menu {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 740px) {
+    .footer {
+        padding: 45px 0px 60px 0px;
+    }
+
+    .menu-block__title {
+        font-size: 12px;
+    }
+
+    .menu-block__container {
+        padding-top: 30px;
+    }
+
+    .menu-block__list {
+        max-height: 160px;
+    }
+
+    .menu-block__item {
+        display: flex;
+        font-size: 14px;
+    }
+
+    .menu-block__item-mobile {
+        display: block;
+    }
+
+    ._none {
+        display: none;
+    }
+
+    .contact-information {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-top: 30px;
+    }
+
+    ._information {
+        margin-bottom: 8px;
+    }
+
+    ._information,
+    ._right {
+        text-align: left;
+    }
+
+    ._displacement {
+        margin-right: 48px;
+    }
+
+    .law-information {
+        padding-top: 50px;
+    }
+
 }
